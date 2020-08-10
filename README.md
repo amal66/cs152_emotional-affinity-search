@@ -1,4 +1,4 @@
-# Final Project - CS152 
+# Improving search result relevance with emotional modelling and social engagement metrics. CS152 Final Paper  
 
 
 
@@ -87,10 +87,7 @@ about being tired, if it were to be asked at 3pm, results related to sleep apnea
 higher value, but if it were to be asked at 7am, results related to sleep quality should be
 prioritized.
 A cognitive modelling to the “Should I go to grad school” query would similarly establish the
-user’s mind space - what is his or her major, income and geographic area - and come up with
-
-## an answer for ​ why ​ the user is asking that query - for example which academic area is it in, is it
-
+user’s mind space - what is his or her major, income and geographic area - and come up with an answer for ​ why ​ the user is asking that query - for example which academic area is it in, is it
 based on professional interest or academic interest? This would then allow results that address
 the thoughts that led to the query - for example a possible result that could be returned in this
 model would be about an alternative to grad school. Therefore, emotional modelling in this
@@ -199,15 +196,6 @@ query was ‘Why do I feel tired all the time’. Google’s search was limited 
 York website from the past year. This was done by inserting the query parameter
 site:humansofnewyork.com and limiting the time range.
 
-
-However, it was discovered that the pagerank mechanism returned no results.
-A sample of 5 queries and the number of results returned are listed below.
-**Query Results**
-Why do I feel tired 0
-Exam Stress 0
-I feel happy 0
-I felt sad 0
-Why do I feel stressed 0
 The author attempted to replicate the pagerank algorithm but unfortunately was not able to do
 so. However, each of the functions proposed was implemented and tested as shown in the
 accompanying python notebook. It is not possible to implement these functions without access
@@ -216,7 +204,8 @@ show that each individual function works, and therefore the overall system desig
 be implemented and tested with more work in machine learning and access to an open source
 search engine. The author attempted to limit his sample but this led to large tradeoffs in terms of
 quality of results returned.
-Conclusion
+
+## Conclusion
 Artificial intelligence has so far been dominated by modelling logic. This paper takes a deep dive
 into an unexplored area of Artificial Intelligence - emotional modelling - and examines the
 background, use cases and potential in the future. A case study in web search was explored,
